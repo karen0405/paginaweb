@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    line-height: 1.6;
+    background-color: #f5f2f2c2;
+}
+
+.menu{
+    color: #ffffff;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.navbar{
+    padding: 21px 5%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.6);
+}
+
+.logo-titulo {
+    max-width: 60px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción original de la imagen */
+    margin-left: 350px;
+}
+
+
+
+/*foto grande*/
+
+.imagen-fondo{
+    width: 1349px;
+    height: auto;
+    margin-top: -93px;
+}
+
+.texto1{
+    position: absolute; 
+    top: 65%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 84px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.texto2{
+    position: absolute; 
+    top: 76%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 30px; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    align-items: center;
+}
+
+/*labiales*/
+.info .info-labiales{
+    color: black;
+    font-size: 32px;
+    margin-top: 90px;
+    text-align: center;
+    width: 98%;
+}
+
+button{
+    position: absolute; 
+    top: 90%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 14px; 
+    cursor: pointer; 
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    padding: 10px 25px;
+}
+
+.navbar .carrito li a i{
+    color: #ffffff;
+    margin-left: 349px;
+}
+
+
+
+.navbar .lista li{
+   list-style: none;
+   display: inline-block;
+}
+
+.navbar .lista li a{
+    display: block;
+    margin-left: 50px;
+    color: #ffffff;
+    border-bottom: 4px solid transparent;
+    text-decoration:none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.navbar .lista b{
+    font-size: 20px;
+    color:#424144;
+    display: block;
+    border-bottom: 4px solid transparent;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar .lista li b:hover{
+    color:#ffffff;
+}
+
+
+.container{
+    width: 150%;
+    max-width: 1275px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container .card{
+    width: 350px;
+    height: 430px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin: 35px;
+}
+
+.container .card:hover{
+   background-color: rgb(192, 187, 190);
+}
+
+.container .card img{
+    width: 350px;
+    height: 350px;
+}
+
+.container .card p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px;
+    align-items: center;
+}
+
+
+.container .card a{
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+    color: #34a751;
+}
+
+/*kos beauty*/
+.imagen-kos{
+    width: 550px;
+    height: auto;
+    margin-top: 115px;
+}
+
+.infodekosbeauty{
+    background-color: black;
+    margin-top: 60px;
+    height: 650px;
+}
+
+.info-labiales .negro{
+    font-weight: bold;
+}
+
+.t1{
+    position: absolute; 
+    color: white; 
+    left: 48%;
+    top: 268%;
+    font-size: 45px;
+}
+
+.t2{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 276%;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.t3{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 290%;
+    font-size: 25px;
+}
+
+.t4{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 308%;
+    font-size: 18px;
+}
+
+.t5{
+    position: absolute;
+    color: white;
+    left: 48%;
+    top: 320%;
+    font-size: 18px;
+}
+
+/*info nini*/
+.imagen-nini{
+    width: 500px;
+    height: auto;
+    margin-top: 105px;
+    margin-left: 849px;
+}
+
+.tex1{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 386%;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.tex2{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 396%;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.tex3{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 406%;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.tex4{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 10%;
+    top: 416%;
+    font-size: 45px;
+}
+
+.tex5{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 385%;
+    font-size: 15px;
+}
+
+.tex6{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 389%;
+    font-size: 15px;
+}
+
+.tex7{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 393%;
+    font-size: 15px;
+}
+
+.tex7 .negra{
+    font-weight: bold;
+}
+
+.tex8{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 397%;
+    font-size: 15px;
+}
+
+.tex8 .negra{
+    font-weight: bold;
+}
+
+.tex9{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 405%;
+    font-size: 15px;
+}
+
+.tex10{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 409%;
+    font-size: 15px;
+}
+
+.tex11{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 417%;
+    font-size: 15px;
+     font-weight: bold;
+}
+
+.tex12{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 29%;
+    top: 423%;
+    font-size: 15px;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #000000;
+    padding: 47px;
+    margin-top: 90px;
+    background-color: white;
+}
+
+
+
+.icon-camion {
+    height: auto;
+    width: 110px;
+    margin-right: 180px; 
+}
+
+.icon-tarjeta {
+    height: auto;
+    width: 57px;
+    margin-right: 250px; 
+}
+
+.icon-pet {
+    height: auto;
+    width: 70px;
+    margin-right: 40px; 
+}
+
+
+
+.email{
+    background-color: #000000;
+    padding: 120px;
+}
+
+.frase{
+    position: absolute;
+    color: white;
+    left: 41%;
+    top: 530%;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.frase2{
+    position: absolute;
+    color: white;
+    left: 34%;
+    top: 545%;
+    font-size: 17px;
+}
+
+#textoUsuario{
+    background-color: rgb(156, 171, 179);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 15px 120px;
+    border: none;
+    border-radius: 1px;
+    cursor:text;
+    transition: background-color 0.3s, color 0.3s; 
+    margin-top: 125px;
+    margin-left: 260px;
+}
+
+#textoUsuario::placeholder{
+    color: #353434;
+    padding: -0px;
+}
+
+#boton-s{
+    background-color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: -5px;
+    border: none;
+}
+
+#boton-s:hover{
+    cursor: pointer;
+    background-color: #424040; 
+    color: #fff; 
+}
+
+/*footer*/
+.footer{
+    width: 200%;
+    background-color: rgb(156, 171, 179);
+    padding: 1cm 0;
+    bottom: 0;
+    color:#fff;
+    text-align: center;
+    
+}
+
+footer .contenedor{
+    background-color: rgb(156, 171, 179);
+    justify-content: flex-end;
+    padding: 20px 5%;
+}
+
+
+
+footer .contenedor p{
+    text-align: center;
+    color: #555555;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.fa-brands:hover{
+    color: white;
+}
+.fa-brands.fa-twitter{
+margin-left: 550px;
+margin-top: 40px;
+font-size: 30px;
+cursor: pointer;
+}
+
+.fa-brands.fa-instagram{
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.fa-brands.fa-tiktok{
+    margin-left: 10px;
+    margin-top: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}

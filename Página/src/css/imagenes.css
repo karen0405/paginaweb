@@ -1,0 +1,39 @@
+
+
+h1{
+    font-weight: lighter;
+    text-align: center;
+    background-color: #fff3f3;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("https://us.123rf.com/450wm/peshkov/peshkov2209/peshkov220900457/192043562-interior-de-galer%C3%ADa-futurista-claro-con-lugar-de-maquetas-representaci%C3%B3n-3d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+img{
+    width: 300px;   
+}
+
+img:hover{
+     transform: scale(0.82);
+}
+
+button{
+    margin-top: 20px;
+    background-color: transparent ;
+    padding: 10px 50px;
+}
+
+button:hover{
+    background-color: #fff3f3;
+    cursor:pointer;
+}

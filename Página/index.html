@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Os Beauty | Cosméticos | Expresión sin límites</title>
+    <link rel="stylesheet" href="/src/css/index.css">
+    <link rel="icon" href="./src/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./src/js/index.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="titulo">
+        <img src="./src/images/logo.png" alt="" class="logo-titulo">
+    </div>
+        <ul class="lista">
+            <li><a href="" >INICIO</a></li>     
+         <li><a href="./src/vistas/imagenes.html" class="activate">PARA TÍ</a></li>   
+         <li><a href="">COSMÉTICOS</a></li>
+         <li><a href="">MI CUENTA</a></li>   
+      
+        </ul>
+
+        <ul class="carrito">
+           <li><a href=""><i class="fas fa-shopping-cart" onclick="carrito()" alt="Labial" onmouseover="mostrarMensaje()"></i></a></li>
+        </ul>
+
+        <div class="menu">
+            <i class="fa fa-bars"></i>
+        </div>
+  </nav>
+
+    <div class="body">
+        <div class="fondo">
+            <img src="./src/images/img1.jpg" alt="" class="imagen-fondo">
+            <div class="texto1">K Os Beauty</div>
+            <div class="texto2">¡Estamos de vuelta!</div>
+            <div class="boton" onclick="mensaje()"><button>Haz clic aquí</button></div>
+        </div>
+
+        <div class="info">
+            <div class="info-labiales">CONOCE NUESTROS <span class="negro">LABIALES</span></div>
+        </div>
+
+            <div class="container">
+                <div class="card">
+                    <img src="./src/images/imgsetlabial.jpg" alt="" id="imagen">
+                    <p>MATTE LIPSTICK SET: NINI, K OS, KENIA OS</p>
+                    <a href="">$899.00</a>
+                </div>
+                <div class="card">
+                    <img src="./src/images/imglabialrojo.jpg" alt="" id="imagen2">
+                    <p>KENIA OS - MATTE LIPSTICK</p>
+                    <a href="">$369.00</a>
+                </div>
+                <div class="card">
+                    <img src="./src/images/imglabialnude.jpg" alt="" id="imagen3">
+                    <p>K OS - MATTE LIPSTICK</p>
+                    <a href="">$369.00</a>
+                </div>
+            </div>
+       
+        <div class="infodekosbeauty">
+            <img src="./src/images/fotonini.jfif" alt="" class="imagen-kos">
+            <div class="t1">CONOCE ACERCA DE</div>  
+            <div class="t2">NOSOTROS</div>
+            <div class="t3">La marca "K Os Beauty" fue diseñada para 
+                                ti que te gusta atreverte y ser tú mismo.
+            </div>
+            <div class="t4">
+                En la cual buscamos la expresión y la libertad de tu creatividad. 
+                Una marca que no tiene límites, estigmas, ni barreras sociales
+            </div>
+            <div class="t5">
+                Productos 100% libres de crueldad animal.
+            </div>
+        </div>
+
+        <div class="infonini">
+            <img src="./src/images/kenia.jfif" alt="" class="imagen-nini">
+            <div class="tex1">De Kenia</div> 
+            <div class="tex2">Flores</div> 
+            <div class="tex3">Osuna</div> 
+            <div class="tex4">para tí.</div> 
+            <div class="tex5">Mi marca nace en el año 2018 en un boceto, en una hoja en </div>
+            <div class="tex6">blanco como un pequeño sueño. Después de trabajar </div>
+            <div class="tex7">arduamente en las formulas perfectas para ustedes, hoy, <span class="negra">K</span></div>
+            <div class="tex8"><span class="negra">Os Beauty</span>es una realidad.</div>
+            <div class="tex9">Espero y disfrutes estos productos que he desarrollado con</div> 
+            <div class="tex10">tanto amor.</div> 
+            <div class="tex11">Te amo gracias, por tanto.</div> 
+            <div class="tex12">No olvides etiquetarnos en nuestro Instagram @kosbeauty</div> 
+        </div>
+
+        <div class="iconos">
+            <img src="./src/images/imgcamion.png" alt="" class="icon-camion">
+            <img src="./src/images/imgtarjeta.png" alt="" class="icon-tarjeta">
+            <img src="./src/images/imgpet.png" alt="" class="icon-pet">
+        </div>
+
+        <div class="email">
+            <div class="frase">¡Entérate!</div>
+            <div class="frase2">Mantente actualizado acerca de nuevos lanzamientos.</div>
+
+            <input type="text" id="textoUsuario" placeholder="Email" name="textoUsuario">
+            <input  type="submit" id="boton-s" value="SUSCRIBIRME "  onclick="suscripcion()" {
+                
+            }>
+        </div>
+    </div>
+
+    <footer>
+        <div class="contenedor">
+            <i class="fa-brands fa-twitter" onclick="twitter()"></i>
+            <i class="fa-brands fa-instagram" onclick="redirigir()"></i>
+            <i class="fa-brands fa-tiktok" onclick="tiktok()"></i>
+            <p>Aviso de Privacidad | Términos y Condiciones</p>
+            <p>K Os Beauty® | Todos los derechos reservados, México 2023.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

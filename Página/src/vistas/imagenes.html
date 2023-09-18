@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consumir API de Imágenes con JavaScript</title>
+</head>
+<link rel="stylesheet" href="/src/css/imagenes.css">
+<body>
+  <h1>Galeria oficial de KOS BEAUTY</h1>
+  <div id="imagen-container"></div>
+
+  <script>
+   
+    const apiKey = 'uXa8w5ALYODYUR4WiSnAQUTxwyPS5CdtavxCTCOEfUU';
+    const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}`;
+
+    function cargarImagen() {
+      fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+          const imagenContainer = document.getElementById('imagen-container');
+          const imagen = document.createElement('img');
+          imagen.src = data.urls.regular;//aqui se toman las imagenes
+          imagen.alt = data.alt_description;
+          imagenContainer.innerHTML = ''; //Hace que se actualice/Se borra cualquier contenido previo dentro de ese contenedor iinerhtml
+          imagenContainer.appendChild(imagen);
+        })
+        .catch(error => console.error('Error al cargar la imagen:', error));
+    }
+    cargarImagen();
+    const botonCargar = document.createElement('button');
+    botonCargar.textContent = 'Cargar Nueva Imagen';
+    botonCargar.addEventListener('click', cargarImagen);
+    document.body.appendChild(botonCargar);
+  </script>
+</body>
+</html>
